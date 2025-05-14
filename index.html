@@ -98,7 +98,8 @@
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <div class="header-inner">
+        <!-- Header-top -->
+        <div class="header-top">
           <!-- Logo -->
           <img src="./assets/images/logo.svg" alt="Lucy" class="logo" />
 
@@ -108,7 +109,9 @@
               <li class="nav-item">
                 <a href="#!" class="nav-link">Home</a>
               </li>
-              <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">About</a>
+              </li>
               <li class="nav-item">
                 <a href="#!" class="nav-link">Services & Rates</a>
               </li>
@@ -126,8 +129,109 @@
             <a href="#!" class="sign-in">Sign in</a>
             <a href="#!" class="btn sign-up">Sign up</a>
           </div>
+
+          <!-- Hero -->
         </div>
+
+        <!-- Hero -->
+        <section class="hero">
+          <!-- card -->
+          <div class="hero-card">
+            <div class="hero-card__large">
+              <!-- thumb -->
+              <img
+                src="./assets/images/hero-01.png"
+                alt="Established & Trusted Pet Care Service"
+                class="hero-card__large--thumb"
+              />
+              <!-- decor -->
+              <img
+                src="./assets/images/decor-01.svg"
+                alt=""
+                class="hero-card__decor--left"
+              />
+              <img
+                src="./assets/images/decor-02.svg"
+                alt=""
+                class="hero-card__decor--right"
+              />
+            </div>
+            <div class="hero-card__small">
+              <img
+                src="./assets/images/hero-02.png"
+                alt="Established & Trusted Pet Care Service"
+                class="hero-card__small--thumb"
+              />
+            </div>
+            <section class="hero-card__list">
+              <!-- list 1 -->
+              <section class="hero-card__list-row">
+                <img
+                  src="./assets/images/hero-03.png"
+                  alt=""
+                  class="hero-card__list-thumb up"
+                />
+                <section class="hero-card__list-content">
+                  <h2 class="hero-card__list-title">Pet Health</h2>
+                  <div class="hero-skeleton"></div>
+                  <div class="hero-skeleton"></div>
+                </section>
+              </section>
+
+              <!-- separate line -->
+              <div class="hero-card__list-separate"></div>
+
+              <!-- list 2 -->
+              <section class="hero-card__list-row">
+                <img
+                  src="./assets/images/hero-04.png"
+                  alt=""
+                  class="hero-card__list-thumb down"
+                />
+                <section class="hero-card__list-content">
+                  <h2 class="hero-card__list-title">Pet care</h2>
+                  <div class="hero-skeleton"></div>
+                  <div class="hero-skeleton"></div>
+                </section>
+              </section>
+            </section>
+          </div>
+
+          <!-- content -->
+          <section class="hero-content">
+            <h1 class="hero-heading">Established & Trusted Pet Care Service</h1>
+            <p class="hero-desc">
+              Discover a wide variety of Pawsitive services to choose from,
+              including daycare, private walks, office duty and spa.
+            </p>
+            <div class="hero-cta">
+              <a href="#!" class="btn hero-cta__btn">
+                Book a Meet
+                <span class="btn-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="5"
+                    height="6"
+                    viewBox="0 0 5 6"
+                    fill="none"
+                  >
+                    <path
+                      d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                      stroke="#FD5056"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </a>
+
+              <a href="#!" class="hero-cta__link">Schedule a Call</a>
+            </div>
+          </section>
+        </section>
       </div>
     </header>
+
+    <!-- main -->
   </body>
 </html>
